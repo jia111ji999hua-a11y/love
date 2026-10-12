@@ -1,0 +1,1 @@
+<template><view class="page"><view class="card"><view class="h">隐私保护协议</view><text>我们仅在您主动提交留资或签约时收集必要信息，用于联系看车、合同履约和还款提醒。身份证号等敏感信息仅限授权管理员访问并按法律要求保存。您可通过客服申请查询、更正或删除信息。继续使用即表示您已阅读并同意本协议。</text></view></view></template><style scoped>.h{font-size:36rpx;font-weight:600;margin-bottom:20rpx}</style>
