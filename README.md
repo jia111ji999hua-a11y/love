@@ -30,3 +30,6 @@
 仓库新增 `miniprogram/` 原生微信小程序目录。微信开发者工具直接导入该目录即可（AppID 填 `wxa162564c4c19827d`），无需 HBuilderX。云函数仍使用根目录 `cloudfunctions/api`，在开发者工具中单独上传部署。
 
 原生微信开发者工具项目已内置 `miniprogram/cloudfunctions/api`，导入 `miniprogram` 后可直接右键该目录部署云函数。
+
+## 本地演示模式
+`miniprogram` 已支持无需云开发的本地演示模式：车辆数据来自 `miniprogram/mock.js`，留资和管理员新增车辆保存在微信本地缓存。导入 `miniprogram` 后直接编译即可，不需要创建云环境、数据库或部署云函数。正式上线前再切换回云数据库并配置权限。
