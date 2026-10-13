@@ -1,0 +1,1 @@
+page{background:#f5f6f8;color:#1f2937}.page{padding:24rpx}.card{background:#fff;border-radius:16rpx;padding:24rpx;margin-bottom:20rpx}.muted{color:#6b7280}.btn{background:#1677ff;color:#fff;border-radius:10rpx;padding:20rpx;text-align:center}.price{color:#ef4444;font-size:36rpx;font-weight:700}.input{background:#f5f6f8;padding:18rpx;margin:12rpx 0;border-radius:8rpx}
