@@ -28,3 +28,5 @@
 
 ## 不使用 HBuilderX：直接运行
 仓库新增 `miniprogram/` 原生微信小程序目录。微信开发者工具直接导入该目录即可（AppID 填 `wxa162564c4c19827d`），无需 HBuilderX。云函数仍使用根目录 `cloudfunctions/api`，在开发者工具中单独上传部署。
+
+原生微信开发者工具项目已内置 `miniprogram/cloudfunctions/api`，导入 `miniprogram` 后可直接右键该目录部署云函数。

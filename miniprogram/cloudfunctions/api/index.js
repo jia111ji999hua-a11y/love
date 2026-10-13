@@ -1,0 +1,1 @@
+const cloud=require('wx-server-sdk');cloud.init({env:cloud.DYNAMIC_CURRENT_ENV});exports.main=async(e)=>{const wxctx=cloud.getWXContext();if(e.action==='adminLogin'){const admins=(process.env.ADMIN_OPENIDS||'').split(',').filter(Boolean);return {ok:admins.includes(wxctx.OPENID)&&e.code===process.env.ADMIN_CODE}}return {ok:false}}
